@@ -26,8 +26,8 @@ int f(char *s1,char *s2)
 
 int main()
 {
-	char *s1 = "abc";
-	char *s2 = "cab";
+	char *s1 = "acbbcaabbcb";
+	char *s2 = "abc";
 
 	if(f(s1,s2))
 		printf("YES!");
